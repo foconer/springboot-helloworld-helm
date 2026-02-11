@@ -1,6 +1,6 @@
-This project contains a sample Helm chart used to deploy resources to Kubernetes. The project image deployed is found in Docker Hub, https://hub.docker.com/r/foconer/springboot-helloworld.
+This project contains a sample Helm chart for deploying resources to Kubernetes. The Docker image used for deployment is available on Docker Hub at: https://hub.docker.com/r/foconer/springboot-helloworld
 
-This was tested in MacOS Sequoia 15, Docker Desktop, minikube v1.38.0
+This project was tested on macOS Sequoia 15 using Docker Desktop and Minikube v1.38.0
 
 Prerequisite (local deployment)
 * Install Docker Desktop (29.1.5+) include the kubectl CLI
@@ -10,9 +10,10 @@ Deployment Instruction
 * Start docker and minikube, check with commands
   - docker container ls (check to see that minikube container is running)
   - kubectl get nodes (check that a nodes exists)
-* Clone this repository
-* Go to Terminal and run the following commands
-  - go to the project directory
+* Open a terminal
+  - Clone this repository
+  - Go to the project directory
+* Run the following commands
   - helm install springboot .
   - kubectl get pods
   - kubectl get svc
