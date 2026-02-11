@@ -17,6 +17,6 @@ Deployment Instruction
   - helm install springboot .
   - kubectl get pods
   - kubectl get svc
-* If using MacOS, a minikube tunnel is needed to access the springboot-app instance
+* On macOS, running minikube tunnel is required to access the springboot-app service
   - minikube service springboot-app
   - Use the tunnel URL to access the application, generated URL example http://127.0.0.1:52883)
