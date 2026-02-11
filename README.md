@@ -7,7 +7,7 @@ Prerequisite (local deployment)
 * Install minikube
 
 Deployment Instruction
-* Start docker and minikube, check with commands
+* Start Docker and Minikube, then verify using the following commands
   - docker container ls (check to see that minikube container is running)
   - kubectl get nodes (check that a nodes exists)
 * Open a terminal
